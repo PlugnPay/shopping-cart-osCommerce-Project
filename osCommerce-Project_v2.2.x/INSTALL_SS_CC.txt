@@ -1,0 +1,16 @@
+PlugnPay Smart Screens (Credit Card) — osCommerce Project 2.2 (quick install)
+============================================================================
+
+NOTE: These modules are discontinued. Prefer the current osCommerce packages:
+https://github.com/PlugnPay/shopping-cart-osCommerce
+
+1. Download oscproject_2.2_cc_ss_module.zip (or use src/ss_cc/).
+2. Copy files under catalog_root/ into the matching paths of your
+   osCommerce Project catalog root.
+3. Admin → Modules → Payment → install/configure PlugnPay CC Smart Screens
+   (plugnpay_cc_ss).
+4. Card data is collected on PlugnPay hosted billing pages.
+5. In PlugnPay Account Settings, enable the transition page and set
+   Transition Page Type to post.
+
+Full notes: src/ss_cc/readme_install.txt

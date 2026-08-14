@@ -1,0 +1,17 @@
+PlugnPay Smart Screens (ACH / eCheck) — osCommerce Project 2.2 (quick install)
+=============================================================================
+
+NOTE: These modules are discontinued. Prefer the current osCommerce packages:
+https://github.com/PlugnPay/shopping-cart-osCommerce
+
+1. Download oscproject_2.2_ach_ss_module.zip (or use src/ss_ach/).
+2. Copy files under catalog_root/ into the matching paths of your
+   osCommerce Project catalog root.
+3. Admin → Modules → Payment → install/configure PlugnPay ACH Smart Screens
+   (plugnpay_ach_ss).
+4. ACH data is collected on PlugnPay hosted billing pages.
+5. ACH / eCheck must be enabled on the PlugnPay gateway account.
+6. In PlugnPay Account Settings, enable the transition page and set
+   Transition Page Type to post.
+
+Full notes: src/ss_ach/readme_install.txt
